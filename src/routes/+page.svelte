@@ -41,6 +41,11 @@
     }
 </script>
 
+<!-- HTML head -->
+<svelte:head>
+    <title>로또 번호 생성기</title>
+</svelte:head>
+
 <div class="container">
     <button on:click={generateLotto} class="generate-btn">뽑기</button>
 
